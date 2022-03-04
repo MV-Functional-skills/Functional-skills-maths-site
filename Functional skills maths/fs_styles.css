@@ -108,8 +108,27 @@ body{
   border-color: #242456;
   width: 15vw;
   padding: 0.5vmin;
+  padding:2vmin;
+  border-radius: 8vmin;
+  border-style: solid;
+  border-color: #242456;
 
 }
+
+
+.banner a {
+  font-size:3vmin;
+  color:#242456;
+  font-weight:lighter;
+  cursor:pointer;
+  text-decoration:underline;
+}
+
+a:hover {
+    font-weight: bolder;
+
+}
+
 .navbox{
 width:60vw;
 height: 15vh;
