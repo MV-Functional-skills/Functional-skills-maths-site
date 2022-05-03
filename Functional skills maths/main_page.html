@@ -32,3 +32,33 @@
 <li onclick = 'changelink("./Session 9 - Conversions/Session 9 - Conversions.html")'>Session 9 - Conversions</li>
 <li onclick = 'changelink("./Session 6 - FDP/Session 6 - FDP.html")'>Session 6 - FDP</li>
 <li onclick = 'changelink("./Session 5 - Ratio and Proportion/Session 5 - Ratio and Proportion.html")'>Session 5 - Ratio and Proportion</li>
+</ol><li onclick = 'changelink("./individual_topics.html")'>Individual topics</li>
+<li onclick = 'changelink("https://calendly.com/functionalskillsbooking")' >Book a 10 week course</li><li onclick = 'changelink("./assets/spec.pdf")' >The functional maths specification</li><li onclick = 'changelink("./bios/bios.html")' >About us</li></ul>
+</div>
+</div>
+<img id="fullscreen2" src = "./assets/screenbutton.png"><script>
+function changelink(link){
+var frame = document.getElementById('frame');
+frame.src = link;
+}
+
+//document.getElementById('fullscreen').addEventListener('click',()=>{
+//    var frame = document.getElementById('frame')
+//   frame.classList.toggle('fullscreen')
+//})
+
+document.getElementById('fullscreen2').addEventListener('click',()=>{
+var frame = document.getElementById('frame')
+var button = document.getElementById('fullscreen2')
+frame.classList.toggle('fullscreen')
+button.classList.toggle('fullscreen')
+})
+function expandhidechild(doc){
+//window.alert(doc)
+var child = doc.parentNode.childNodes;
+//window.alert(child)
+//child.classList.toggle("show");
+//window.alert(child.classList);
+child[2].classList.toggle("hidden");
+}
+</script></body>
